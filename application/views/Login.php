@@ -36,7 +36,7 @@
                         <div class="panel-body">
                             <?php 
                                   echo form_open('Welcome/loginVerification',array('role'=>'form'));
-                                  $username = array('class'=>'form-control','placeholder'=>'E-mail','name'=>'email','type'=>'email');
+                                  $username = array('class'=>'form-control','placeholder'=>'E-mail','name'=>'email','type'=>'type');
                                   $password = array('class'=>'form-control','placeholder'=>'Password','name'=>'password','type'=>'password') ;
                             ?>
                             <!--<form role="form">-->
@@ -58,8 +58,7 @@
                                     </div>
                                     <!-- Change this to a button or input when using this as a form -->
                                     <?php echo form_submit(array('class'=>'btn btn-lg btn-primary btn-block','value'=>'Login','type'=>'submit')); ?>
-                                    <!--<a href="index.html" class="btn btn-lg btn-primary btn-block">Login</a>
-                                --></fieldset>
+                                   </fieldset>
                             <?php echo form_close(); ?>
                             <!--</form>-->
                         </div>
