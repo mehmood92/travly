@@ -6,7 +6,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img class="brand-logo" src="img/logo.png" alt=""/>Mint</a>
+                    <a class="navbar-brand" href="<?php echo Base_url('welcome/home'); ?>"><img class="brand-logo" src="<?php echo Base_url('assets/img/logo.png');?>" alt=""/>Mint</a>
                 </div>
                 <!-- /.navbar-header -->
 
@@ -18,7 +18,7 @@
                         <ul class="dropdown-menu dropdown-messages">
                             <li>
                                 <a href="#">
-                                    <img class="pull-left dropdown-messages-profile" src="img/profile-2.jpg"/>
+                                    <img class="pull-left dropdown-messages-profile" src="<?php Base_url('assets/img/profile-2.jpg');?>"/>
                                     <div>
                                         <strong>Lara Smith</strong>
                                         <span class="pull-right dropdown-messages-date text-muted">

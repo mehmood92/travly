@@ -12,9 +12,19 @@
 
         <!-- Mint Admin Scripts - Include with every page -->
         <script src="<?php echo base_url('assets/js/mint-admin.js');?>"></script>
+        
+        <!-- Page-Level Plugin Scripts - Tables -->
+        <script src="<?php echo Base_url('assets/js/plugins/dataTables/jquery.dataTables.js');?>"></script>
+        <script src="<?php echo Base_url('assets/js/plugins/dataTables/dataTables.bootstrap.js');?>"></script>
 
         <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
         <script src="<?php echo base_url('assets/js/demo/dashboard-demo.js');?>"></script>
+        <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+        <script>
+            $(document).ready(function() {
+                $('#dataTables-example').dataTable();
+            });
+        </script>
 
     </body>
 

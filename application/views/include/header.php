@@ -24,7 +24,9 @@
         <!-- Page-Level Plugin CSS - Dashboard -->
         <link href="<?php echo base_url('assets/css/plugins/morris/morris-0.4.3.min.css');?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/plugins/timeline/timeline.css');?>" rel="stylesheet">
-
+       
+        <link href="<?php echo Base_url('assets/css/plugins/dataTables/dataTables.bootstrap.css');?>" rel="stylesheet">
+            
         <!-- Mint Admin CSS - Include with every page -->
         <link href="<?php echo base_url('assets/css/mint-admin.css');?>" rel="stylesheet">
 

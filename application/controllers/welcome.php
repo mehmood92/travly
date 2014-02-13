@@ -54,11 +54,7 @@ class Welcome extends CI_Controller {
               $res = $result;   
               $data = array('Name'=>$res['name'],'is_logged_in'=>true);
               $datas = $this->session->set_userdata($data);
-              $this->load->view('include/header.php');
-              $this->load->view('include/topbar.php');
-              $this->load->view('include/sidebar.php');
-              $this->load->view('index.php');
-              $this->load->view('include/footer.php');
+              $this->home();
             }
             else
             {
@@ -71,6 +67,15 @@ class Welcome extends CI_Controller {
     {
         $this->session->unset_userdata('is_logged_in');
         $this->load->view('Login.php');
+    }
+    public function home()
+    {
+        $this->load->view('include/header.php');
+        $this->load->view('include/topbar.php');
+        $this->load->view('include/sidebar.php');
+        $this->load->view('index.php');
+        $this->load->view('include/footer.php');
+
     }
 
 }
