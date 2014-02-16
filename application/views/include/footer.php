@@ -20,20 +20,14 @@
         <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
         <script src="<?php echo base_url('assets/js/demo/dashboard-demo.js');?>"></script>
         <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+       
+        <script src="<?php echo base_url('assets/js/bootstrap-colorpicker.js');?>"></script>
+        <script src="<?php echo base_url('assets/js/bootstrap-datetimepicker.js');?>"></script>
+        <script src="<?php echo base_url('assets/js/bootstrap-timepicker.js');?>"></script>
+        <script src="<?php echo base_url('assets/js/jquery.multi-select.js');?>"></script>
+        <script src="<?php echo base_url('assets/js/jquery.quicksearch.js');?>"></script>
         
-        <script src="<?php echo Base_url('assets/js/actions.js');?>"></script>
-
-        <script src="<?php echo Base_url('assets/js/jquery-migrate-1.1.1.min.js');?>"></script>
-
-        <script src="<?php echo Base_url('assets/js/jquery-ui-1.10.1.custom.min.js');?>"></script>
-
-        <script src="<?php echo Base_url('assets/js/jquery.multi-select.min.js');?>"></script>
-         
-        <script src="<?php echo Base_url('assets/js/jquery.uniform.min.js');?>"></script>
-          
-        <script src="<?php echo Base_url('assets/js/plugins.js');?>"></script>
-        
-        
+         <script src="<?php echo base_url('assets/js/advanced-form.js');?>"></script>
         
         <script>
             $(document).ready(function() {

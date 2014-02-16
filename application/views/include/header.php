@@ -22,23 +22,15 @@
         <link href="<?php echo base_url('assets/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');?>" rel="stylesheet">
 
         <!-- Page-Level Plugin CSS - Dashboard -->
-        <link href="<?php echo base_url('assets/css/plugins/morris/morris-0.4.3.min.css');?>" rel="stylesheet">
+     
         <link href="<?php echo base_url('assets/css/plugins/timeline/timeline.css');?>" rel="stylesheet">
        
         <link href="<?php echo Base_url('assets/css/plugins/dataTables/dataTables.bootstrap.css');?>" rel="stylesheet">
             
         <!-- Mint Admin CSS - Include with every page -->
         <link href="<?php echo base_url('assets/css/mint-admin.css');?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/multi-select.css');?>" rel="stylesheet">
         
-        <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css');?>" rel="stylesheet">
-        
-        <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
-        
-        <link href="<?php echo base_url('assets/css/multiselect.css');?>" rel="stylesheet">
-        
-        <link href="<?php echo base_url('assets/css/select.css');?>" rel="stylesheet">
-        
-        <link href="<?php echo base_url('assets/css/uniform.css');?>" rel="stylesheet">
         
     </head>
 

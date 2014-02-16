@@ -1,5 +1,5 @@
 <?php
-class Route extends CI_Model
+class Routes_model extends CI_Model
 {
    public function __construct() 
    {
