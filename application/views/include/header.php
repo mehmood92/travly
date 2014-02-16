@@ -29,7 +29,17 @@
             
         <!-- Mint Admin CSS - Include with every page -->
         <link href="<?php echo base_url('assets/css/mint-admin.css');?>" rel="stylesheet">
-
+        
+        <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css');?>" rel="stylesheet">
+        
+        <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
+        
+        <link href="<?php echo base_url('assets/css/multiselect.css');?>" rel="stylesheet">
+        
+        <link href="<?php echo base_url('assets/css/select.css');?>" rel="stylesheet">
+        
+        <link href="<?php echo base_url('assets/css/uniform.css');?>" rel="stylesheet">
+        
     </head>
 
     <body>

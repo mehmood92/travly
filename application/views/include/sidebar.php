@@ -73,6 +73,10 @@
             <li>
                 <a href="<?php echo Base_url('buses/'); ?>"><i class="fa fa-th fa-fw fa-3x"></i> Buses</a>
             </li>
+            
+            <li>
+                <a href="<?php echo Base_url('busStopRoute/'); ?>"><i class="fa fa-th fa-fw fa-3x"></i>Bus Stop Routes</a>
+            </li>
         </ul>
         <!-- /#side-menu -->
     </div>
