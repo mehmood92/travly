@@ -27,17 +27,16 @@ class BusStopRoutes_Model extends CI_Model
        }
        return $result; 
    }
-   public function preformAction($data1)
+   public function preformAction($route,$busStops)
    {
-       $busStops = $data1->busstops;
-       $route = $data1->route;
-       $allBusStops = getAllBusStops();
+      
+       $allBusStops = $this->getAllBusStops();
        $busStopObject = array();
        foreach ($busStops as $bus) {
            
            foreach ($allBusStops as $row) {
                
-                    if($bus->id==$row->id)
+                    if($bus['id']==$row['id'])
                     {
                        $busStopObject[] = $row;
 
@@ -50,8 +49,8 @@ class BusStopRoutes_Model extends CI_Model
        
       for($i = 1; $i < count($busStopObject); $i++)
         {
-            $start = $previous.lat . ',' . $previous.lon; 
-     $end = $busStopObject[i].lat . ',' .$busStopObject[i].lon ;
+            $start = $previous['lat'] . ',' . $previous['lon']; 
+     $end = $busStopObject[i]['lat'] . ',' .$busStopObject[i]['lon'] ;
      $data = json_decode(file_get_contents('http://maps.googleapis.com/maps/api/directions/json?origin=' . $start . '&destination=' . $end . '&sensor=false'),true);
      
       $distance = $data['routes'][0]['legs'][0]['distance']['value'];
